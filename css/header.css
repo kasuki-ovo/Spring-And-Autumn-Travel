@@ -1,0 +1,122 @@
+/*
+* @Author: john
+* @Date:   2019-02-19 23:15:39
+* @Last Modified by:   john
+* @Last Modified time: 2019-02-20 03:25:49
+*/
+header{
+	width: 1200px;
+	height: 90px;
+	margin: 0px auto;
+	line-height: 90px;
+	border-bottom: 1px solid #eee;
+}
+header>img{
+	float: left;
+	padding-top: 20px;
+}
+.hhead{
+	margin: 0 70px 0 15px;
+    font-size: 18px;
+    height: 90px;
+    float: left;
+}
+.hhead>li{
+	float: left;
+	padding-left: 50px;
+	position: relative;
+}
+.hhead a{
+	color: #666;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px
+}
+.hhead .curents{
+    border-color: #c49c5f;
+    color: #c49c5f;
+}
+.hide{
+	/* position: fixed; */
+	position: absolute;
+    display: none;
+    top: 90px;
+    left: -130px;
+    padding: 25px 27px 5px 27px;
+    width: 430px;
+    background-color: #fff;
+    z-index: 100;
+    border: 1px solid #c59d60;
+    overflow: hidden;
+}
+.hide>p{
+	color: #c59d60;
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: left;
+}
+.hide a{
+	float: left;
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 14px;
+}
+.h_in,.h_out{
+	margin-bottom: 20px;
+    overflow: hidden;
+}
+/* .active{
+	color: #c49c5f;
+} */
+.phone{
+	float: right;
+	color: #666;
+}
+.p_left{
+	float: left;
+}
+.p_left>i{
+	display: inline-block;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background: url(../images/icon_phone_g.png) no-repeat center center;
+}
+.p_left>span{
+	display: inline-block;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.p_right{
+	margin-left: 30px;
+    width: 91px;
+    height: 91px;   
+    text-align: center;
+    background-color: #62a5c5;
+    float: right;
+}
+.p_right>p{
+    margin: 28px 0 6px 0;
+    height: 20px;
+    line-height: 20px;
+}
+.user{
+	display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background: url(../images/icon.png) no-repeat 0 0;
+}
+.dl{
+	padding-left: 4px;
+	color: #fff;
+}
+.dd{
+	display: block;
+	margin: 0 auto;
+    line-height: 20px;
+    color: #fff;
+}

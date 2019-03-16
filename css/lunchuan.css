@@ -1,0 +1,261 @@
+/*
+* @Author: zhang
+* @Date:   2019-02-15 23:23:35
+* @Last Modified by:   hp
+* @Last Modified time: 2019-02-27 15:52:31
+*/
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+body{
+	
+}
+a{
+	text-decoration: none;
+}
+.top{
+	height:58px;
+	border-bottom: 1px solid #02875a;
+	
+}
+header {
+	height:58px;
+	width:1155px;
+	margin-right:auto;
+	margin-left:auto;
+	background: white;
+}
+header img{
+	float: left;
+	margin-top: 10px;
+	margin-right:46px;
+}
+header ul{
+	float: left;
+	overflow: hidden;
+	margin-top:20px;
+}
+header li{
+	float: left;
+	margin-right:26px;
+
+}
+header li:nth-of-type(11){
+	margin-right:0px;
+
+}
+header a{
+	font-size: 16px;
+	color: #666;
+}
+header span{
+	float:left;
+	margin-top:20px;
+	font-size:16px;
+	color:#ead48c;
+}
+header span:nth-of-type(2){
+	font-size:12px;
+	color:#b5e5ff;
+	height:21px;
+	line-height: 21px;
+}
+header span img{
+	display: inline-block;
+	width:16px;
+	margin-right:0px;
+	margin-top:4px;
+}
+.M{
+	height:586px;
+	
+	background:url(../images/banner.jpg) no-repeat scroll center top;
+	margin:0 auto;
+	text-align: center;
+	overflow:hidden;
+}
+.sea{
+	height: 232px;
+	background:url(../images/a1bg.jpg)no-repeat scroll center top;
+	text-align: center;
+	overflow:hidden;
+	
+}
+.control{
+	height:210px;
+	background:#27b7ec;
+	z-index: 100;
+	
+}
+.control ul{
+
+	width:1000px;
+	height:60px;
+	padding-top:120px;
+	margin-right:auto;
+	margin-left:auto;
+
+
+}
+.control li{
+	text-align:center;
+	line-height:60px;
+	float:left;
+	height:60px;
+	width:250px;
+	background:#f9bf30;
+	color:#b17810;
+	font-size:28px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+.control .current{
+	color:white;
+	background:#d47c1b;
+}
+.sea2{
+	height:512px;
+	background:#1aae60;
+	text-align: center;
+	overflow:hidden;
+	background:url('../images/food.jpg') no-repeat scroll center top;
+}
+.sea3{
+	height:596px;
+	background:#1aae60;
+	text-align: center;
+	overflow:hidden;
+	background:url('../images/yule.jpg') no-repeat scroll center top;
+
+}
+.sea4{
+	height:543px;
+	background:#27b7ec;
+	text-align: center;
+	overflow:hidden;
+	background:url('../images/taofang.jpg') no-repeat scroll center top;
+
+}
+.sea5 {
+	background:#27b7ec;
+	overflow:hidden;
+	
+}
+.sea5 .tag{
+	height:90px;
+	background:url('../images/taofangtu.jpg') no-repeat scroll center top;
+}
+.imgl{
+ 	width:860px;
+ 	height:320px;
+ 	padding:40px 70px;
+ 	margin-right:auto;
+ 	margin-left:auto;
+ 	overflow:hidden;
+ 	background:#1788b2;
+ 	position: relative;
+
+}
+.imgl div{
+ width:859px;
+ height:320px;
+ margin-left:auto;
+ margin-right:auto;
+ overflow:hidden;
+}
+.imgl ul{
+	height:320px;
+	width:1720px;
+	overflow:hidden;
+}
+.imgl li{
+	float:left;
+	margin-right:14px;
+
+}
+.left{
+	position:absolute;
+	
+}
+.right{
+	position:absolute;
+	
+
+}
+.many{
+	width:997px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+
+
+}
+.three {
+	margin: 0px 35px;
+}
+.hou{
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.search{
+	height:40px;
+	margin-bottom:17px;
+}
+.search div{
+	width:465px;
+	height:34px;
+	border: 2px solid #ffa650;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+
+}
+.search input{
+	border:none;
+	padding:10px 12px;
+	font-size:12px;
+	color:#666;
+	width:364px;
+
+}
+.search img{
+	position:absolute;
+	top:0px;
+	right:0px;
+	cursor:pointer;
+}
+.remen{
+	height:39px;
+	background:white;
+	    width: 1550px;
+
+}
+.remen p{
+	float:left;
+	margin-left:392px;
+	margin-right:24px;
+	color:#999;
+	font-size:12px;
+	height:39px;
+}
+.remen a{
+	color:#666;
+	float:left;
+	font-size:12px;
+	margin-right:24px;
+
+}
+
+footer{
+	height:79px;
+	background:#1cbc76;
+	text-align:center;
+	line-height:79px;
+}
+footer p{
+	font-size:12px;
+	color:white;
+}

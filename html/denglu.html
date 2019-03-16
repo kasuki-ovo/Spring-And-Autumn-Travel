@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/denglu.css">
+    </head>
+    <body>
+    <div class="header">
+    	<div>
+    		<a href="../index.html"><img src="../images/logo.png" alt=""></a>
+    		<img src="../images/zc_ph.png" alt="">
+    	</div>
+    	
+    </div>
+    <div class="main">
+    	<img src="../images/zcbg.jpg" alt="">
+    	<div class="box">
+        	<div class="top">
+        		<div class="on" id="sj">
+        			<p>会员账号登陆</p>
+        			<i class="arr"></i>
+        			<i class="tabline"></i>
+        		</div>
+        		<div id="yx">
+        			<p>手机动态密码登录</p>
+        			<i class="arr"></i>
+        		</div>
+        	</div>
+    		
+    		<div class="shoujimain">
+    			<ul class="shuru">
+    				<li><span></span><input type="text" placeholder="手机号码/邮箱"></li>
+    				<li><span></span><input type="text" placeholder="8-16位字符"></li>	
+    				
+    			</ul>
+                <ul class="shuru2">
+                    <li><span></span><input type="text" placeholder="手机号码"></li>
+                    <li><span></span><input type="text" placeholder="验证码"></li><a href="">DWSE</a>
+                    <li><span></span><input type="text" placeholder="短信动态密码"></li> 
+                    <a href="" >动态获取密码</a>
+                </ul>
+    			<p class="but">登陆</p>
+                <p class="wanji">
+                    <input type="checkbox" class="gou">
+                    <span>下次自动登陆</span>
+                    <a href="">忘记密码?</a>
+                    <a href="">免费注册</a>
+                </p>
+                <div class="disan"><span>第三方账号登陆</span></div>
+                <ul class="xuanzhe">
+                    <li><span></span>QQ</li>
+                    <li><span></span>微信</li>
+                    <li><span></span>微博</li>
+                    <li><span></span>支付宝</li>
+                    <li><span></span>财付通</li>
+                    
+                </ul>
+    		</div>
+    	</div>
+    </div>
+    <div class="outer"></div>
+    <footer>
+    <div>
+    	<div class="left">
+    		<img src="../images/f-logo.png" alt="">
+    		<p>Copyright ©1998-2019   版权所有   上海春秋国际旅行社(集团)有限公司</p>
+    		<p><a href="#">营业执照</a><a href="#">经营许可证</a>投诉电话：021-62515444</p>
+    	</div>
+    	
+    	<div class="lianjie">
+    		<ul>
+    			<li>营业网点</li>
+    			<li>活动专区</li>
+    			<li>开放平台</li>
+    			<li>春秋优选</li>
+    			<li>春秋航空</li>
+    			<li>春秋商旅通卡</li>
+    			<li>绿翼积分通兑</li>
+    			<li>诚聘英才</li>
+    			<li>春秋导游</li>
+    			<li>温暖帕米尔</li>
+    			<li>友情链接</li>
+    			<li>关于我们</li>
+    			<li>旅行社系统方案</li>
+    		</ul>
+    	</div>
+    	<div class="show">
+    		<img src="../images/沪logo.jpg" alt="">
+    		<img src="../images/网络logo.jpg" alt="">
+    		<img src="../images/工商.jpg" alt="">
+    		<img src="../images/旅游协会.jpg" alt="">
+    		<img src="../images/安备.jpg" alt="">
+    	</div>
+    </div>
+    	
+    </footer>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script>
+        $('#sj').click(function(){
+            $('#sj').addClass('on');
+            $('#yx').removeClass('on');
+            $('.shuru').show()
+            $('.shuru2').hide()
+
+        })
+        $('#yx').click(function(){
+            $('#yx').addClass('on');
+            $('#sj').removeClass('on');
+            $('.shuru').hide()
+            $('.shuru2').show()
+        })
+    </script>
+    </body>
+</html>
+

@@ -1,0 +1,174 @@
+/*
+* @Author: john
+* @Date:   2019-02-17 21:58:22
+* @Last Modified by:   john
+* @Last Modified time: 2019-02-19 23:16:58
+*/
+body{
+	background: #fff;
+	min-width: 1200px;
+	font-size: 14px;
+	color: #666;
+}
+a{
+	text-decoration: none;
+}
+main{
+	text-align: center;
+	min-width: 1200px;
+	height: 1058px;
+    margin: 0 auto;
+    background: url(../images/bg3.jpg) no-repeat 0 0;
+    text-align: left;
+}
+main>div{
+	width: 1200px;
+	margin: 0 auto;
+}
+.sub{
+	padding: 25px 0;
+	overflow: hidden;
+}
+.sub>a{
+	display: block;
+    float: left;
+    margin-right: 10px;
+    color: #e2f0f5;
+}
+.section{
+	width: 1000px;
+	height: 838px;
+	background-color: rgba(255, 255, 255, 0.7);
+    padding: 60px 100px;
+}
+.left{
+	/* position: relative; */
+    width: 520px;
+    height: 778px;
+    float: left;
+    background: rgba(255, 255, 255, .6);
+    /* overflow: hidden; */
+    padding: 60px 40px 0 40px;
+}
+h2{
+	margin-bottom: 10px;
+	text-align: center;
+    font-size: 30px;
+    /* font-weight: normal; */
+    color: #c49c5f;
+}
+.left>p{
+	margin-bottom: 10px;
+	line-height: 30px;
+	text-align: center;
+}
+.left>ul{
+	font-size: 16px;
+}
+.left li{
+	padding-left: 40px;
+    line-height: 60px;
+    position: relative;
+}
+
+.left div{
+	border-bottom: 1px solid #ccc;
+} 
+.left span{
+	display: inline-block;
+    width: 115px;
+}
+input{
+	margin-top: -4px;
+	outline: none;
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    // padding: 5px;
+}
+.icon{
+	display: inline-block;
+	width: 24px;
+    height: 24px;
+	background: url(../images/new-icond.png) no-repeat 0 0;
+	position: absolute;
+    left: 0;
+    top: 18px;
+}
+.cfcs{
+	background-position: 0 -70px;
+	
+}
+.xqnl{
+	background-position: -24px -70px;
+	
+}
+.cfrq{
+	background-position: -48px -70px;
+	
+}
+.xl{
+	background-position: -78px -46px;
+	width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    position: relative;
+    left: 0px;
+    top:0px;
+}
+.lxts{
+	background-position: -72px -70px;
+}
+.company{
+	color: #c59d60;
+    font-size: 12px;
+}
+.pick{
+	background-position: -42px -46px;
+	width: 18px;
+    height: 18px;
+    margin-right: 10px;
+	position: relative;
+    left: 0px;
+    top:5px;
+}
+.cxrs{
+	background-position: -96px -70px;
+}
+.rjys{
+	background-position: -120px -70px;
+}
+.bz{
+	background-position: -144px -70px;
+}
+.txtar{
+	// display: inline-block;
+	width: 415px;
+    border: 1px solid #ccc !important;
+    margin-top: 8px;
+    vertical-align: top;
+    font-size: 16px;
+    background-color: transparent;
+	padding: 10px 0 0 15px;
+}
+.submit{
+	display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 320px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #c59d60;
+    color: #fff;
+    font-size: 18px;
+}
+.right{
+	float: right;
+}
+footer>p{
+	line-height:50px;
+	background: #181819;
+	color: #fff;
+	text-align: center;
+}

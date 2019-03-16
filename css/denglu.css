@@ -1,0 +1,389 @@
+/*
+* @Author: zhang
+* @Date:   2019-02-17 00:43:46
+* @Last Modified by:   hp
+* @Last Modified time: 2019-02-27 11:40:38
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+input{
+	outline: 0;
+}
+.header{
+	background:white;
+	height:85px;
+	border-bottom: 1px solid #dbdedf;
+}
+.header div{
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	height:86px;
+}
+.header a{
+	float: left;
+	margin-top: 23px;
+	
+}
+.header div>img{
+	float: right;
+	margin-top:53px;
+}
+body{
+	background: #f5fbfb;
+}
+.main{
+	margin-right:auto;
+	margin-left: auto;
+	width: 1200px;
+	height:772px;
+}
+.main img{
+	float:left;
+	margin-top:190px;
+	margin-left:68px;
+}
+.box{
+	float:left;
+	width:500px;
+	border: 1px solid #ebf0f2;
+	background:white;
+    margin-left:108px;
+    margin-top:60px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	position: relative;
+	padding-bottom:30px;
+}
+.top{
+	height: 53px;
+	background:#dff7ed;
+	cursor: pointer;
+}
+.top div {
+	float: left;
+    height: 53px;
+    width: 210px;
+    color: #666;
+    font: normal 20px/49px "微软雅黑";
+    border-bottom: 1px solid #ccc;
+    padding-left: 40px;
+    position: relative;
+}
+
+
+
+.main .on{
+	color: white;
+    border-bottom: 5px solid #1cbc76;
+    height: 49px;
+    background:#1cbc76;
+}
+.box div.on i.arr{
+    height: 5px;
+    width: 10px;
+    position: absolute;
+    bottom: -10px;
+    left: 120px;
+    background: url(../images/zc1.png) no-repeat 0px -56px;
+}
+.tabline{
+	display: block;
+    height: 18px;
+    width: 1px;
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+    border-right: 1px solid #ccc;
+    line-height: 0;
+    font-size: 0;
+}
+
+.shoujimain{
+	
+    position: relative;
+    width:500px;
+   
+}
+.shuru li{
+	width:348px;
+	height:36px;
+	border:1px solid #ccc;
+	margin:20px 0px;
+	border-radius:2px;
+	margin-left:74px;
+	position:relative;
+	color:black;
+}
+.shuru li input{
+	width:298px;
+	height:36px;
+	border:none;
+	font-size:12px;
+	
+	margin-left:50px;
+}
+.shuru span{
+	display:inline-block;
+	width:22px;
+	height:22px;
+	background:url(../images/new-icon.png)no-repeat 0px -28px;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+.shuru li:nth-of-type(2) span{
+ 	background:url(../images/new-icon.png)no-repeat -18px -28px;
+}
+.shuru2{
+	display:none;
+}
+
+.shuru2 li{
+	width:348px;
+	height:36px;
+	border:1px solid #ccc;
+	margin:20px 0px;
+	border-radius:2px;
+	margin-left:74px;
+	position:relative;
+	color:block;
+}
+.shuru2 li input{
+	width:298px;
+	height:36px;
+	border:none;
+	font-size:12px;
+	color:#757575;
+	margin-left:50px;
+}
+.shuru2 span{
+	display:inline-block;
+	width:22px;
+	height:22px;
+	background:url(../images/new-icon.png)no-repeat 0px -28px;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+.shuru2 li:nth-of-type(2){
+	width:210px;
+}
+.shuru2 li:nth-of-type(3){
+	width:210px;
+}
+.shuru2 li:nth-of-type(2) input{
+	width:160px;
+}
+.shuru2 li:nth-of-type(3) input{
+	width:160px;
+}
+.shuru2 a{
+	position:absolute;
+	top: 60px;
+	left:304px;
+	width:76px;
+	height:32px;
+	background:#8ec553;
+	text-align:center;
+	line-height:32px;
+	color:white;
+}
+.shuru2 a:nth-of-type(2){
+	height:34px;
+	width:118px;
+	border:1px solid #ccc;
+	background:white;
+	top: 116px;
+	left:304px;
+	color:#666;
+}
+
+.shuru2 li:nth-of-type(2) span{
+ 	background:url(../images/new-icon.png)no-repeat -18px -28px;
+}
+.shuru2 li:nth-of-type(3) span{
+ 	background:url(../images/new-icon.png)no-repeat -18px -28px;
+}
+.but{
+	width:348px;
+	height:36px;
+	border:1px solid #f84;
+	text-align:center;
+	line-height:36px;
+	color:white;
+	font-size:14px;
+	background:#f84;
+	border-radius:4px;
+	margin-left:74px;
+}
+.wanji{
+	display:inline-block;
+	width:350px;
+	margin-left:74px;
+	line-height:40px;
+	height:40px;
+
+}
+.wanji span{
+	font-size:12px;
+	color:#444;
+}
+.wanji a{
+	float:right;
+	font-size:12px;
+	color: #444;
+
+}
+.wanji a:nth-of-type(2){
+	
+	padding-right:5px;
+	margin-right:9px;
+}
+.gou{
+	float:left;
+	width:15px;
+	height:13px;
+	border-radius:2px;
+	border:1px solid #a7a7a7;
+	background:#dedede;
+	margin-top:16px;
+}
+
+.xuanzhe span{
+float: left;
+display:inline-block;
+width:22px;
+height:22px;
+margin:0px;
+margin-right:2px;
+background:url(../images/new-icon.png)no-repeat 0px -50px;
+}
+
+.xuanzhe  li:nth-of-type(2) span{
+background:url(../images/new-icon.png)no-repeat -22px -50px;
+
+}
+.xuanzhe  li:nth-of-type(3) span{
+background:url(../images/new-icon.png)no-repeat -44px -50px;
+
+}
+.xuanzhe li:nth-of-type(4) span{
+background:url(../images/new-icon.png)no-repeat -66px -50px;
+
+}
+.xuanzhe li:nth-of-type(5) span{
+background:url(../images/new-icon.png)no-repeat -88px -50px;
+
+}
+
+.xuanzhe li{
+	float:left;
+	width:60px;
+	height:22px;
+	padding:5px;
+	font-size:12px;
+	line-height:22px;
+	color:#222;
+	margin-right:8px;
+	background:#fbfbfb;
+	border:1px solid #e8e8e8;
+	cursor:pointer;
+}
+.xuanzhe{
+	width:418px;
+	height:34px;
+	margin-left:50px;
+}
+.outer input{
+	height:10px;
+	background:#e5e5e5;
+}
+footer{
+	height:194px;
+	background:#3c3c3c;
+}
+footer>div{
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	height:144px;
+	padding-top: 25px;
+	padding_bottom:25px;
+	color:#a4c4ce;
+}
+.left{
+	width:660px;
+	height:60px;
+	float:left;
+}
+.left>img{
+	float:left;
+	margin-right: 25px;
+
+}
+.left p{
+	font-size: 12px;
+	color: #a4c4ce;
+	padding-bottom: 10px;
+}
+.left p>a{
+	color: #a4c4ce;
+	text-decoration: none;
+	margin-right:10px;
+	font-size: 12px;
+}
+.lianjie{
+	width:510px;
+	height:44px;
+	float:right;
+
+}
+.lianjie li{
+	float:left;
+	border-right:1px solid #6b8278;
+	color:#6b8278;
+	font-size:12px;
+	padding-right: 5px;
+	margin-right:5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.lianjie li:nth-of-type(13){
+	border:none;
+}
+.show{
+	width:1200px;
+	height:84px;
+	padding: 30px 0 10px 0;
+    text-align: center;
+    float:left;
+}
+.show img{
+	    margin: 0 5px;
+	    width:113px;
+	    cursor:pointer;
+}
+.disan{
+	text-align:center;
+	font-size:12px;
+	border-bottom:1px solid #ccc;
+	margin-left:auto;
+	margin-right:auto;
+	width:360px;
+	margin-bottom:10px;
+
+}
+.disan span{
+	background:white;
+	position:relative;
+	top:8px;
+	padding:0 4px;
+	color:#ccc;
+
+}
